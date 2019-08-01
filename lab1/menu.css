@@ -1,0 +1,57 @@
+#header{
+  text-align:center;
+}
+
+#control{
+  margin-left:32%;
+}
+
+#detail{
+  width: 60%;
+}
+
+ul{
+  line-height:30px;
+}
+
+#table{
+  text-align:center;
+}
+
+nav {
+    border-bottom: 1px solid black;
+  
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left:21%;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.side{
+  margin-left:21%;
+}
+
+.side ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+}
